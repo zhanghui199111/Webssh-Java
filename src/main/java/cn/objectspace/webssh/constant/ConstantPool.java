@@ -1,10 +1,10 @@
 package cn.objectspace.webssh.constant;
 
 /**
-* @Description: 常量池
-* @Author: NoCortY
-* @Date: 2020/3/8
-*/
+ * @Description: 常量池
+ * @Author: NoCortY
+ * @Date: 2020/3/8
+ */
 public class ConstantPool {
     /**
      * 随机生成uuid的key名

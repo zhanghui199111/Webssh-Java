@@ -10,12 +10,12 @@ import org.springframework.web.socket.*;
 
 
 /**
-* @Description: WebSSH的WebSocket处理器
-* @Author: NoCortY
-* @Date: 2020/3/8
-*/
+ * @Description: WebSSH的WebSocket处理器
+ * @Author: NoCortY
+ * @Date: 2020/3/8
+ */
 @Component
-public class WebSSHWebSocketHandler implements WebSocketHandler{
+public class WebSSHWebSocketHandler implements WebSocketHandler {
     @Autowired
     private WebSSHService webSSHService;
     private Logger logger = LoggerFactory.getLogger(WebSSHWebSocketHandler.class);
